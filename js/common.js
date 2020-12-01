@@ -9,11 +9,4 @@ $(function () {
   close.click(function () {
     menu.hide()
   })
-
-  // 컨텍트
-  var mClose = $('.modal_close')
-  var mMenu = $('.contact_menu')
-  mClose.click(function () {
-    mMenu.hide()
-  })
 })
