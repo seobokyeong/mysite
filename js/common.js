@@ -12,7 +12,7 @@ $(function () {
 
   // 컨텍트
   var mClose = $('.modal_close')
-  var mMenu = $('.menu')
+  var mMenu = $('.contact_menu')
   mClose.click(function () {
     mMenu.hide()
   })
