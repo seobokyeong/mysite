@@ -39,3 +39,16 @@
 .sub_meun a:first-child {
   margin-left: 0;
 }
+
+.grid dl {
+  position: absolute;
+  bottom: -300px;
+  left: 3%;
+  padding: 40px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.grid dl dt {
+  margin-bottom: 40px;
+}
