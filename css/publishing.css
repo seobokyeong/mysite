@@ -77,10 +77,13 @@ div.sub_nav h2:hover:before {
   margin-bottom: 30px;
 }
 
+.grid .card {
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 .grid img {
   /* width: 345px;
   height: 565px; */
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
 
