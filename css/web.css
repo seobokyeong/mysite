@@ -40,13 +40,20 @@
   margin-left: 0;
 }
 
-.grid dl {
+.grid .card_01,
+.grid .card_02,
+.grid .card_03 {
   position: absolute;
   bottom: -300px;
-  left: 3%;
+  left: 15%;
   padding: 40px;
   color: #fff;
+  line-height: 1.4;
   transition: all 0.3s;
+}
+
+.grid .card_02 {
+  left: 8.5%;
 }
 
 .grid dl dt {
