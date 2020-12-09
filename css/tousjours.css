@@ -1,0 +1,21 @@
+.sub_nav .img img {
+  width: 815px;
+}
+
+.sub_gird {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid a:nth-child(1) {
+  grid-column: span 2;
+}
+
+.grid img {
+  height: initial;
+}
+
+.royalpalace_h2 {
+  width: 290px;
+}
