@@ -4,6 +4,10 @@
   gap: 80px;
 }
 
+.popup-gallery a img {
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 .popup-gallery a:nth-child(1) {
   grid-row: span 3;
 }
@@ -37,5 +41,9 @@
 }
 
 .popup-gallery a:nth-child(9) {
+  grid-row: span 2;
+}
+
+.popup-gallery a:nth-child(10) {
   grid-row: span 2;
 }
