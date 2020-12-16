@@ -3,24 +3,59 @@
 }
 
 .uiux_img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 1200px;
+  box-sizing: border-box;
 }
 
 .swiper-container {
-  width: 1200px;
+  width: 600px;
   height: 620px;
-  background: #f4f4f4;
-  margin-bottom: 100px;
+  background: #fafafa;
+  margin-bottom: 80px;
   /* border: 1px solid #a6a6a6; */
 }
+
 .swiper-slide {
   text-align: center;
   display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
   align-items: center; /* 위아래 기준 중앙정렬 */
-  justify-content: center; /* 좌우 기준 중앙정렬 */
+  justify-content: center;
+  /* justify-content: ; 좌우 기준 중앙정렬 */
 }
 .swiper-slide img {
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   height: 98%; /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
   /* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
+}
+
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 45px;
+  color: #fff;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.14);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.219);
+}
+
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 45px;
+  color: #fff;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.219);
+}
+
+.swiper-button-next:after {
+  font-size: 20px;
 }
