@@ -173,3 +173,21 @@ div.sub_nav h2:hover:before {
 .grid .card:hover img {
   transform: scale(1.02);
 }
+
+.go_top {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.08);
+  font-size: 35px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+  color: #636363;
+}
