@@ -149,7 +149,7 @@ div.menu .close:hover:after {
 
 .left {
   display: flex;
-  width: 42%;
+  width: 44%;
   height: 730px;
   /* border: 1px solid #d9d9d9; */
 }
@@ -160,14 +160,14 @@ div.menu .close:hover:after {
   /* justify-content: center; */
   /* padding: 96px 42px 16px 50px; */
   padding-top: 80px;
-  padding-right: 65px;
+  padding-right: 85px;
 }
 
 .my_photo img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-left: 18px;
+  margin-left: 22px;
   margin-top: 10px;
 }
 
@@ -180,7 +180,7 @@ div.menu .close:hover:after {
 .my_photo p {
   display: inline-block;
   text-align: left;
-  width: 240px;
+  width: 250px;
   font-size: 14px;
   line-height: 1.6;
   margin-top: 24px;
@@ -195,7 +195,7 @@ div.menu .close:hover:after {
 }
 
 .about h3 {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .about h3,
