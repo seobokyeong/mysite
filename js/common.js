@@ -20,7 +20,7 @@ $(function () {
   $(window).scroll(function () {
     var scrollTopValue = $(document).scrollTop()
 
-    if (scrollTopValue > 900) {
+    if (scrollTopValue > 580) {
       goTop.fadeIn()
     } else {
       goTop.fadeOut()

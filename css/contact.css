@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
 .white-popup-block {
   width: 838px;
   height: 546px;
@@ -11,7 +14,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
   background: #fbfbfb;
   color: #636363;
   z-index: 100;
@@ -147,36 +149,53 @@ div.menu .close:hover:after {
 
 .left {
   display: flex;
-  width: 642px;
-  height: 734px;
-  margin-right: 200px;
-  border: 1px solid #d9d9d9;
+  width: 42%;
+  height: 730px;
+  /* border: 1px solid #d9d9d9; */
 }
 
 .my_photo {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  padding: 96px 42px 16px 42px;
+  /* display: inline-block; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* padding: 96px 42px 16px 50px; */
+  padding-top: 80px;
+  padding-right: 65px;
 }
 
 .my_photo img {
-  width: 188px;
-  height: 188px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.my_photo h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 1.4;
 }
 
 .my_photo p {
-  margin-top: 15px;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
+  width: 240px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 24px;
+}
+
+.my_photo span {
+  font-weight: 700;
 }
 
 .menu_text {
-  padding-top: 96px;
+  padding-top: 85px;
 }
 
 .about h3 {
-  margin-top: 42px;
+  margin-top: 30px;
 }
 
 .about h3,
@@ -187,13 +206,14 @@ div.menu .close:hover:after {
 }
 
 .about p,
-.skill p {
-  font-size: 18px;
+.skill p,
+.education p {
+  font-size: 16px;
   line-height: 2;
 }
 
 .skill {
-  margin-top: 42px;
+  margin-top: 30px;
 }
 
 .skill p {
@@ -227,10 +247,14 @@ div.menu .close:hover:after {
   margin-left: 16px;
 }
 
+.education span {
+  font-weight: 700;
+}
+
 /* 메뉴 오른쪽 */
 
 .right {
-  margin-left: 100px;
+  width: 22%;
 }
 
 .right .nav {
