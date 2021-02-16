@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>가구 홈페이지</title>
+    <link rel="shortcut icon" href="./images/myicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/myicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./js/magnific-popup.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/publishing.css" />
+    <link rel="stylesheet" href="./css/royalpalace.css" />
+    <link rel="stylesheet" href="./css/fullpage.css" />
+  </head>
+  <body>
+    <!-- 탑 버튼 -->
+    <div class="go_top"><i class="xi-arrow-up"></i></div>
+    <!-- 헤더 -->
+    <div class="header">
+      <div class="header_nav">
+        <a href="index.html" class="logo_img"
+          ><img src="./images/logo.png" alt=""
+        /></a>
+        <a href="./contact.html">
+          <div class="hamburger">
+            <span></span>
+            <span></span></div
+        ></a>
+      </div>
+    </div>
+
+    <!-- content  -->
+
+    <div class="body container">
+      <div class="snb_content">
+        <div class="sub_nav">
+          <a href="./furniture.html">
+            <h2 class="sub_h2 royalpalace_h2">가구 웹페이지</h2></a
+          >
+          <div class="sub_back">
+            <div class="back">
+              <a href="./web.html"
+                ><h4><i class="xi-angle-left-min">Back</i></h4></a
+              >
+            </div>
+            <p>
+              평소에 집 꾸미는 데 관심이 많아 나만의 가구 웹페이지를 디자인
+              하였습니다. 툴은 Photoshop과 Figma를 사용하였습니다.
+            </p>
+          </div>
+          <div class="img">
+            <img src="./images/web/web_img07.jpg" alt="" />
+          </div>
+        </div>
+        <div class="grid sub_gird">
+          <a
+            class="grid-item"
+            href="./images/web/web_big_08.jpg"
+            title="블라썸 가구 웹페이지"
+            ><img src="./images/web/web_big_08.jpg" alt="img"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // 모달
+      // magnific-Popup
+      $('.grid-item').magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        image: {
+          verticalFit: false
+        }
+      })
+
+      // 모달
+      $('.popup-modal').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#username',
+        modal: true
+      })
+      $(document).on('click', '.popup-modal-dismiss', function (e) {
+        e.preventDefault()
+        $.magnificPopup.close()
+      })
+    </script>
+  </body>
+</html>

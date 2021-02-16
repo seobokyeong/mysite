@@ -16,14 +16,17 @@ $(function () {
 
   // 헤더 스크립트
   var goTop = $('.go_top')
+  var boyoung = $('.slick-dots')
 
   $(window).scroll(function () {
     var scrollTopValue = $(document).scrollTop()
 
     if (scrollTopValue > 580) {
       goTop.fadeIn()
+      boyoung.fadeIn()
     } else {
       goTop.fadeOut()
+      boyoung.fadeOut()
     }
   })
 

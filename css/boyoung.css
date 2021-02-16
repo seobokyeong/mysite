@@ -1,0 +1,109 @@
+.boyoung_container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide_01 {
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slide_01 img {
+  width: 100%;
+}
+
+.slide_01 .item04 {
+  position: relative;
+}
+
+.slide_01 .item04 span {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background: red;
+}
+
+.slick-dots {
+  position: fixed;
+  right: 0px;
+  bottom: 130px;
+  width: 200px;
+  height: 80px;
+}
+
+.slick-dots li {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 15px 10px 0px;
+}
+
+.slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #636363;
+  padding: 5px 15px 10px 0px;
+  border-bottom: 1px solid #636363;
+  transition: all 0.3s;
+}
+
+.slick-dots li button:before {
+  color: #636363;
+  transition: all 0.3s;
+}
+
+.slick-dots li:first-child button:before {
+  font-size: 20px;
+  content: '1';
+}
+.slick-dots li:nth-child(2) button:before {
+  font-size: 20px;
+  content: '2';
+}
+.slick-dots li:nth-child(3) button:before {
+  font-size: 20px;
+  content: '3';
+}
+.slick-dots li:nth-child(4) button:before {
+  font-size: 20px;
+  content: '4';
+}
+
+.mfp-bg {
+  background: #000;
+  opacity: 0.86;
+}
+
+.mfp-title {
+  font-size: 18px;
+  text-align: left;
+  color: #f3f3f3;
+  word-wrap: break-word;
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  font-size: 40px;
+}
+
+.go_top {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.08);
+  font-size: 35px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+  color: #636363;
+}
+
+.snb_content span {
+  display: flex;
+  color: #636363;
+  font-size: 14px;
+}

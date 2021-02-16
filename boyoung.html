@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>배우 박보영 소개 웹페이지</title>
+    <link rel="shortcut icon" href="./images/myicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/myicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script src="./js/common.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/royalpalace.css" />
+    <link rel="stylesheet" href="./css/fullpage.css" />
+    <link rel="stylesheet" href="./css/boyoung.css" />
+  </head>
+  <body>
+    <!-- 탑 버튼 -->
+    <div class="go_top"><i class="xi-arrow-up"></i></div>
+    <!-- 헤더 -->
+    <div class="header">
+      <div class="header_nav">
+        <a href="index.html" class="logo_img"
+          ><img src="./images/logo.png" alt=""
+        /></a>
+        <a href="./contact.html">
+          <div class="hamburger">
+            <span></span>
+            <span></span></div
+        ></a>
+      </div>
+    </div>
+
+    <!-- content  -->
+
+    <div class="boyoung_container">
+      <div class="snb_content">
+        <div class="sub_nav">
+          <a href="./boyoung.html">
+            <h2 class="sub_h2 royalpalace_h2">박보영 소개 웹페이지</h2></a
+          >
+          <div class="sub_back">
+            <div class="back">
+              <a href="./web.html"
+                ><h4><i class="xi-angle-left-min">Back</i></h4></a
+              >
+            </div>
+            <p>
+              평상시 좋아하는 배우 박보영의 간단한 소개 웹페이지를 디자인
+              하였습니다. Photoshop과 Figma를 사용하였습니다.
+            </p>
+          </div>
+          <div class="img">
+            <img src="./images/web/web_img08.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="slide_01">
+          <div class="item item01">
+            <img src="./images/web/web_big_09.jpg" alt="" />
+          </div>
+          <div class="item item03">
+            <img src="./images/web/web_big_10.jpg" alt="" />
+          </div>
+          <div class="item item02">
+            <img src="./images/web/web_big_11.jpg" alt="" />
+          </div>
+          <div class="item item04">
+            <img src="./images/web/web_big_12.jpg" alt="" />
+          </div>
+        </div>
+        <span
+          >사진 출처 :
+          <a href="https://kissme-wallpapers.com/1942#nav"
+            >아리따움 배경화면
+          </a>
+          <a href="https://jyutaing.tistory.com/category"
+            >쥬타, 나는 네가 쥬타</a
+          >,구글링
+        </span>
+      </div>
+    </div>
+
+    <script>
+      $('.slide_01').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dotsClass: 'slick-dots',
+        infinite: true,
+        adaptiveHeight: true,
+        type: 'bullets' // 버튼 모양 결정 "bullets", "fraction"
+        // renderBullet: function (index, className) {
+        //   // className이 기본값이 들어가게 필수 설정
+        //   return '<a href="#" class="' + className + '">' + (index + 1) + '</a>'
+        // }
+      })
+    </script>
+  </body>
+</html>
